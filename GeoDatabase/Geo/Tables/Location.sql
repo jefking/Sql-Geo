@@ -10,12 +10,10 @@
     CONSTRAINT [PK_Location] PRIMARY KEY CLUSTERED ([LocationId] ASC)
 );
 
-
 GO
 CREATE SPATIAL INDEX [SPATIAL_Geo_Location_GeoSpatial]
-    ON [Geo].[Location] ([GeoSpatial])
-    USING GEOGRAPHY_GRID
-    WITH  (
-            GRIDS = (LEVEL_1 = MEDIUM, LEVEL_2 = MEDIUM, LEVEL_3 = MEDIUM, LEVEL_4 = MEDIUM)
-          );
-
+ON [Geo].[Location] ([GeoSpatial])
+USING GEOGRAPHY_GRID
+WITH  (
+        GRIDS = (LEVEL_1 = MEDIUM, LEVEL_2 = MEDIUM, LEVEL_3 = MEDIUM, LEVEL_4 = MEDIUM)
+        );
