@@ -80,5 +80,6 @@
       <AnsiNulls>Off</AnsiNulls>
       <QuotedIdentifier>Off</QuotedIdentifier>
     </Build>
+    <Build Include="Geo\Geo.sql" />
   </ItemGroup>
 </Project>
