@@ -6,6 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GeoDatabase", "GeoDatabase\GeoDatabase.sqlproj", "{4A1806E0-C859-4209-86A0-2CB883FA456B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A1856018-EB7C-44E8-A5EF-E6AE5EBA80AA}"
+	ProjectSection(SolutionItems) = preProject
+		data\geo.country.csv = data\geo.country.csv
+		data\geo.location.csv = data\geo.location.csv
+		data\geo.locationipblocks.csv = data\geo.locationipblocks.csv
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
