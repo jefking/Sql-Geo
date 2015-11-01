@@ -2,7 +2,6 @@
     [IsoCode]     CHAR (2)          NOT NULL,
     [Name]        VARCHAR (200)     NOT NULL,
     [Position]    [sys].[geography] NOT NULL,
-    [IsInHeatMap] BIT               DEFAULT ((0)) NOT NULL,
     PRIMARY KEY CLUSTERED ([IsoCode] ASC)
 );
 
